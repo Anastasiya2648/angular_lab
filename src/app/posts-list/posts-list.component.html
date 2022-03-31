@@ -1,0 +1,8 @@
+<div class="posts">
+  <div class="post" *ngFor="let post of posts; index as i">
+    <app-post [post]="post"></app-post>
+    <div class="post-button">
+      <button class="post-button__delete" (click)="delete(i)">Удалить</button>
+    </div>
+  </div>
+</div>

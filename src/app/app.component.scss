@@ -1,0 +1,12 @@
+app-create-post-form{
+height: 100vh;
+padding: 10px;
+background-color: rgb(241, 237, 229);
+}
+app-posts-list{
+    height: 100vh;
+    padding: 10px;
+}
+:host{
+    display: flex;
+}

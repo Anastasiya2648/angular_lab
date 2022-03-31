@@ -1,0 +1,19 @@
+<div class="form-add">
+  <div class="form-name">
+    <label for="" class="form-name__label">Название поста</label>
+    <input [(ngModel)]="name" type="text" class="form-name__text" />
+  </div>
+  <div class="form-text">
+    <label class="form-text__label">Сообщение</label>
+    <textarea
+      [(ngModel)]="message"
+      class="form-text__message"
+      cols="30"
+      rows="10"
+      placeholder="Введите сообщение"
+    ></textarea>
+  </div>
+  <div class="form-button">
+    <button (click)="emitPost()" class="form-button__post">Добавить</button>
+  </div>
+</div>

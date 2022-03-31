@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+html,body{
+    margin: 0;
+    padding: 0;
+   overflow: hidden;
+   background-color: rgb(226, 208, 190);
+}
+input,textarea{
+    border-radius: 0;
+   outline: none;
+   border: solid 1.5px rgb(216, 163, 127);
+}
+input{
+    height: 20px;
+}
+button{
+    border-radius: 0;
+   outline: none;
+   background-color: rgb(216, 163, 127);
+   border: 0;
+   height: 30px;
+   width: 100px;
+   color: white;
+   &:hover{
+    background-color: rgb(202, 145, 108);
+ }
+}
+
+h3{
+    color: rgb(153, 101, 66);
+    font-family: 'Raleway', sans-serif;
+}
